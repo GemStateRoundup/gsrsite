@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gem State Roundup`,
+    title: `Gem State Roundup 2019`,
     description: `Welcome to the official website of the 2019 Gem State Roundup.`,
     author: `Mark Long`,
   },

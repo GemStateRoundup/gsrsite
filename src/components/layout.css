@@ -1,9 +1,10 @@
 :root {
   --mainBrown: #2d1ef1;
   --mainYellow: #ff9e09;
-  --mainGrey: #ece8dc;
+  --mainGrey: #ccc;
   --mainWhite: #fff;
   --mainDark: #222;
+  --mainBlack: #000;
 }
 
 body {
@@ -22,12 +23,59 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
-.text-yellow {
-  color: var(--mainYellow);
+/* change the navbar background color */
+.navbar-custom {
+  background-color: var(--mainBlack) !important;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--mainWhite) !important;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: var(--mainGrey) !important;
 }
 
 .cart-icon {
   cursor: pointer;
-  color: var(--mainYellow);
-  font-size: 2rem;
+  font-size: 2rem !important;
+}
+
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: linear-gradient(rgba(230, 56, 192, 0.8), rgba(244, 66, 206, 0.7));
+  background-position: center;
+  background-size: cover;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 420px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .navbar-brand {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .default-background {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  .default-background {
+    margin-top: 50px;
+  }
 }
