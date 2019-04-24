@@ -4,7 +4,9 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import MainHero from "../components/Globals/MainHero"
+import MainHero from "../components/Home/MainHero"
+import Welcome from "../components/Home/Welcome"
+import GMap from "../components/Globals/GMap"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -13,6 +15,8 @@ const IndexPage = ({ data }) => (
       img={data.img.childImageSharp.fluid}
       styleClass="default-background"
     />
+    <Welcome />
+    <GMap />
   </Layout>
 )
 

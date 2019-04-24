@@ -1,6 +1,6 @@
 :root {
   --mainBrown: #2d1ef1;
-  --mainYellow: #ff9e09;
+  --mainPink: #ee4aea;
   --mainGrey: #ccc;
   --mainWhite: #fff;
   --mainDark: #222;
@@ -23,6 +23,22 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
+.btn-pink {
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
+  background: var(--mainBlack);
+}
+
+.btn-pink:hover {
+  color: var(--mainWhite);
+  border-color: var(--mainWhite);
+  background: var(--mainPink);
+}
+
+.footer {
+  background: var(--mainBlack);
+}
+
 /* change the navbar background color */
 .navbar-custom {
   background-color: var(--mainBlack) !important;
@@ -37,7 +53,7 @@ h6 {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: var(--mainGrey) !important;
+  color: var(--mainPink) !important;
 }
 
 .cart-icon {

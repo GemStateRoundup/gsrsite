@@ -38,7 +38,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark navbar-custom">
         <Link to="/" className="navbar-brand">
-          <span>Gem State Roundup 2019</span>
+          <span>Gem State Roundup {new Date().getFullYear().toString()}</span>
         </Link>
         <button
           className="navbar-toggler"
