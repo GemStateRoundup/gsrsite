@@ -8,7 +8,7 @@ export default function Welcome() {
       <div className="container">
         <Title title="welcome" />
         <div className="row">
-          <div className="col-10 col-sm-8 mx-auto text-center">
+          <div className="col-12 col-sm-10 mx-auto text-center">
             <p className="lead text-muted mb-5">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate tenetur rerum numquam laudantium, maxime quo quod, nam
