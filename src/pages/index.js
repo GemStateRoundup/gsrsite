@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MainHero from "../components/Home/MainHero"
 import Welcome from "../components/Home/Welcome"
-import GMap from "../components/Globals/GMap"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,7 +15,6 @@ const IndexPage = ({ data }) => (
       styleClass="default-background"
     />
     <Welcome />
-    <GMap />
   </Layout>
 )
 
