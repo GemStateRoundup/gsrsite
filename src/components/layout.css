@@ -1,7 +1,7 @@
 :root {
   --mainBrown: #2d1ef1;
   --mainPink: #ee4aea;
-  --mainGrey: #ccc;
+  --mainGrey: #ededed;
   --mainWhite: #fff;
   --mainDark: #222;
   --mainBlack: #000;
@@ -23,9 +23,17 @@ h6 {
   letter-spacing: 0.25rem !important;
 }
 
+#mG61Hd {
+  text-align: start;
+}
+
+.grey-background {
+  background-color: var(--mainGrey);
+}
+
 .btn-pink {
   color: var(--mainWhite);
-  border-color: var(--mainWhite);
+  border-color: var(--mainBlack);
   background: var(--mainBlack);
 }
 
@@ -50,10 +58,11 @@ h6 {
 }
 
 /* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: var(--mainPink) !important;
+.navbar-custom .nav-item:hover .nav-link,
+.cart-icon:hover {
+  color: var(--mainGrey) !important;
 }
 
 .cart-icon {
