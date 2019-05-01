@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import GoogleMapReact from "google-map-react"
 
 const HotelLocation = ({ text }) => (
-  <section className="pt-5">
+  <section>
     <div
       style={{
         color: "white",
