@@ -17,11 +17,6 @@ export default function Welcome() {
               dolore veritatis architecto quia, cum nisi esse quam commodi?
               Consequatur ut quaerat velit doloribus est!
             </p>
-            <Link to="/commitments/">
-              <button className="btn btn-pink text-uppercase">
-                commitments
-              </button>
-            </Link>
           </div>
         </div>
       </div>
