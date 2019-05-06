@@ -10,6 +10,7 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
+  font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
@@ -86,20 +87,44 @@ h6 {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 815px) {
+  .display-4 {
+    font-size: 1.75rem;
+  }
   .navbar-brand {
     font-size: 0.9rem;
   }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  .navbar {
+    padding: 0.5rem 1.2rem !important;
+  }
+  .pages {
+    min-height: 40vh;
+  }
 }
 
-@media only screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
+  .display-4 {
+    font-size: 1.5rem;
+  }
   .navbar-brand {
     font-size: 0.8rem;
   }
 }
 
+@media only screen and (max-height: 1025px) {
+  .default-background,
+  .pages {
+    margin-top: 25px;
+  }
+}
+
 @media only screen and (max-height: 450px) {
-  .default-background {
+  .default-background,
+  .pages {
     margin-top: 50px;
   }
 }
