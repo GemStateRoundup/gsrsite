@@ -70,7 +70,8 @@ h6 {
   font-size: 2rem !important;
 }
 
-.default-background {
+.default-background,
+.pages {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -78,6 +79,10 @@ h6 {
   background: linear-gradient(rgba(230, 56, 192, 0.8), rgba(244, 66, 206, 0.7));
   background-position: center;
   background-size: cover;
+}
+
+.pages {
+  min-height: 50vh;
 }
 
 /* Media Queries */

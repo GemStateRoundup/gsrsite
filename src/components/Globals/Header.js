@@ -1,20 +1,11 @@
 import React from "react"
-import Title from "./Title"
 
-export default function Header() {
+export default function Header({ title }) {
   return (
-    <section className="pt-5 default-background">
-      <div className="row">
-        <div className="col-12 text-center">
-          <div className="container">
-            <Title title="Header" />
-          </div>
-        </div>
+    <div className="row pages">
+      <div className="col text-center">
+        <h1 className="display-4 text-capitalize font-weight-bold">{title}</h1>
       </div>
-    </section>
+    </div>
   )
 }
-
-// Header.defaultProps = {
-//   styleClass: "default-background",
-// }
