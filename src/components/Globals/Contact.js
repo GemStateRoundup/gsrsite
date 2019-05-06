@@ -4,12 +4,20 @@ import Title from "../Globals/Title"
 export default class Contact extends Component {
   state = {
     selectedOption: "No",
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   }
 
   handleOptionChange = changeEvent => {
     this.setState({
       selectedOption: changeEvent.target.value,
     })
+  }
+
+  onSubmit = () => {
+    console.log(this.state)
   }
 
   render() {
@@ -71,10 +79,12 @@ export default class Contact extends Component {
                     <label htmlFor="name">Name:</label>
                     <input
                       name="entry.1141188181"
+                      value={this.state.name}
+                      onChange={e => this.setState({ name: e.target.value })}
                       type="text"
                       className="form-control"
                       id="name"
-                      placeholder="Your Name here..."
+                      placeholder="Your Name..."
                     />
                   </div>
                 </div>
@@ -83,10 +93,12 @@ export default class Contact extends Component {
                     <label htmlFor="email">Email:</label>
                     <input
                       name="entry.875360458"
+                      value={this.state.email}
+                      onChange={e => this.setState({ email: e.target.value })}
                       type="email"
                       className="form-control"
                       id="email"
-                      placeholder="Your Email here..."
+                      placeholder="Your Email..."
                     />
                   </div>
                 </div>
@@ -95,10 +107,12 @@ export default class Contact extends Component {
                     <label htmlFor="phone">Phone Number:</label>
                     <input
                       name="entry.1639807107"
+                      value={this.state.phone}
+                      onChange={e => this.setState({ phone: e.target.value })}
                       type="tel"
                       className="form-control"
                       id="phone"
-                      placeholder="Your Area Code & Phone Number here...example 208-555-1212"
+                      placeholder="Your Area Code & Phone Number...example 208-555-1212"
                     />
                   </div>
                 </div>
@@ -107,6 +121,8 @@ export default class Contact extends Component {
                     <label htmlFor="textarea">Message:</label>
                     <textarea
                       name="entry.1060375794"
+                      value={this.state.message}
+                      onChange={e => this.setState({ message: e.target.value })}
                       id="message"
                       className="form-control"
                       rows="5"
@@ -119,6 +135,7 @@ export default class Contact extends Component {
                     <button
                       type="submit"
                       className="btn btn-block btn-pink text-uppercase"
+                      onClick={() => this.onSubmit()}
                     >
                       Submit
                     </button>
