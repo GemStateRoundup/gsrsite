@@ -9,7 +9,10 @@ import Welcome from "../components/Home/Welcome"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[`Gem State Roundup`, `Alcoholics Anonymous`]}
+    />
     <MainHero
       img={data.img.childImageSharp.fluid}
       styleClass="default-background"
