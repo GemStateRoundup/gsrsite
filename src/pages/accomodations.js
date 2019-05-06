@@ -6,10 +6,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/Globals/Header"
 
-const Accomodations = () => (
+const Accomodations = title => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Header />
+    <SEO title="Accomodations" keywords={[`Riverside Hotel`, `Boise Idaho`]} />
+    <Header title="Accomodations" />
   </Layout>
 )
 

@@ -9,7 +9,7 @@ import Header from "../components/Globals/Header"
 const Schedule = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Header />
+    <Header title="Schedule" />
   </Layout>
 )
 
