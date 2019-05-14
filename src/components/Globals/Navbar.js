@@ -19,7 +19,7 @@ export default class Navbar extends Component {
       },
       {
         id: 3,
-        path: "/schedule",
+        path: "/event-schedule",
         text: "schedule",
       },
     ],
