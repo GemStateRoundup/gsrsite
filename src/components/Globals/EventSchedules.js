@@ -16,13 +16,13 @@ export default function EventSchedules() {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">2</th>
+            <th scope="row">1</th>
             <td>Golf Tournament</td>
             <td>8:00AM - Shot Gun Start</td>
             <td>Boise Ranch Golf Course</td>
           </tr>
           <tr>
-            <th scope="row">1</th>
+            <th scope="row">2</th>
             <td>Registration</td>
             <td>1:00PM - 7:00PM</td>
             <td>Riverside Hotel</td>
@@ -59,7 +59,7 @@ export default function EventSchedules() {
             <td>Riverside Hotel</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">2</th>
             <td>Hospitality Room</td>
             <td>7:00AM - 9:00PM</td>
             <td>Riverside Hotel</td>
@@ -71,19 +71,19 @@ export default function EventSchedules() {
             <td>Riverside Hotel</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
+            <th scope="row">4</th>
             <td>Motorcycle Fun Run</td>
             <td>9:00AM - 11:00AM</td>
             <td>Riverside Hotel</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">5</th>
             <td>Al-Anon Luncheon</td>
             <td>11:30AM - 1:30PM</td>
             <td>Riverside Hotel</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">6</th>
             <td>Plated Dinner Party</td>
             <td>6:00PM - 9:00PM</td>
             <td>Riverside Hotel</td>
