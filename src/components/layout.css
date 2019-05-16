@@ -49,8 +49,14 @@ h6 {
 }
 
 /* change the navbar background color */
-.navbar-custom {
+.navbar-custom,
+.thead-dark,
+table thead th {
   background-color: var(--mainBlack) !important;
+}
+
+table.table-hover tbody tr:hover {
+  background-color: var(--mainPink) !important;
 }
 
 /* change the link color */
