@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MainHero from "../components/Home/MainHero"
 import Welcome from "../components/Home/Welcome"
+import Events from "../components/Home/Events"
+import Swag from "../components/Home/Swag"
 import GMap from "../components/Globals/GMap"
 import Contact from "../components/Globals/Contact"
 
@@ -25,6 +27,8 @@ const IndexPage = ({ data }) => (
       // styleClass="default-background"
     />
     <Welcome />
+    <Events />
+    <Swag />
     <Contact />
     <GMap />
   </Layout>
