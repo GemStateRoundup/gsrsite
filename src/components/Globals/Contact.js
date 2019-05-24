@@ -26,7 +26,7 @@ export default class Contact extends Component {
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <div className="container">
-              <Title title="contact & location" />
+              <Title title="contact" />
 
               <form
                 className="py-5"

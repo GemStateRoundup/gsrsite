@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import GoogleMapReact from "google-map-react"
+import Title from "../Globals/Title"
 
 const HotelLocation = ({ text }) => (
   <section>
@@ -33,22 +34,24 @@ class GMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-
-      <div style={{ height: "500px", width: "100%" }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{
-            key: "AIzaSyAHlMBTfagMYZS3gyE3dkTkz1BiHJpesj0",
-          }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <HotelLocation
-            lat={43.619837}
-            lng={-116.235154}
-            text="Riverside Hotel"
-          />
-        </GoogleMapReact>
-      </div>
+      <section className="py-5 grey-background">
+        <Title title="location" />
+        <div style={{ height: "500px", width: "100%" }}>
+          <GoogleMapReact
+            bootstrapURLKeys={{
+              key: "AIzaSyAHlMBTfagMYZS3gyE3dkTkz1BiHJpesj0",
+            }}
+            defaultCenter={this.props.center}
+            defaultZoom={this.props.zoom}
+          >
+            <HotelLocation
+              lat={43.619837}
+              lng={-116.235154}
+              text="Riverside Hotel"
+            />
+          </GoogleMapReact>
+        </div>
+      </section>
     )
   }
 }
