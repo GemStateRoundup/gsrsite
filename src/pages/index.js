@@ -8,8 +8,8 @@ import MainHero from "../components/Home/MainHero"
 import Welcome from "../components/Home/Welcome"
 import Events from "../components/Home/Events"
 import Swag from "../components/Home/Swag"
-import GMap from "../components/Globals/GMap"
-import Contact from "../components/Globals/Contact"
+import GMap from "../components/Home/GMap"
+import Contact from "../components/Home/Contact"
 
 const IndexPage = ({ data }) => (
   <Layout>
