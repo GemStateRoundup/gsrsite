@@ -34,14 +34,14 @@ h6 {
 
 .btn-pink {
   color: var(--mainWhite);
-  border-color: var(--mainBlack);
-  background: var(--mainBlack);
+  border-color: var(--mainPink);
+  background: var(--mainPink);
 }
 
 .btn-pink:hover {
   color: var(--mainWhite);
-  border-color: var(--mainWhite);
-  background: var(--mainPink);
+  border-color: var(--mainBlack);
+  background: var(--mainBlack);
 }
 
 .footer {
