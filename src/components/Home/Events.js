@@ -32,13 +32,13 @@ export default () => (
       }
     `}
     render={data => (
-      <section className="py-5">
+      <section className="py-5 grey-background">
         <div className="container">
           <Title title="Events" />
           <div className="row">
             {data.allContentfulEvents.edges.map(({ node }) => {
               return (
-                <div className="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <div className="col-sm-12 col-md-6 col-lg-4 mt-4" key={node.id}>
                   <div className="card h-100">
                     <Img fluid={node.image.fluid} />
                     <div className="card-body d-flex flex-column">
@@ -65,7 +65,7 @@ export default () => (
                       </p>
                       <button
                         type="button"
-                        class="btn btn-pink btn-lg btn-block mt-auto"
+                        className="btn btn-pink btn-lg btn-block mt-auto"
                       >
                         Add To Cart
                       </button>
