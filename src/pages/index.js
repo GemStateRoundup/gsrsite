@@ -10,6 +10,7 @@ import Events from "../components/Home/Events"
 import Swag from "../components/Home/Swag"
 import GMap from "../components/Home/GMap"
 import Contact from "../components/Home/Contact"
+import Accomodations from "../components/Home/Accomodations"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -30,6 +31,7 @@ const IndexPage = ({ data }) => (
     <Events />
     <Swag />
     <Contact />
+    <Accomodations />
     <GMap />
   </Layout>
 )
