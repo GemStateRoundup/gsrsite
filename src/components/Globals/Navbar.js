@@ -14,11 +14,31 @@ export default class Navbar extends Component {
       },
       {
         id: 2,
-        path: "/accomodations",
-        text: "accomodations",
+        path: "/#welcome",
+        text: "welcome",
       },
       {
         id: 3,
+        path: "/#events",
+        text: "events",
+      },
+      {
+        id: 4,
+        path: "/#swag",
+        text: "swag",
+      },
+      {
+        id: 5,
+        path: "/#contact",
+        text: "contact",
+      },
+      {
+        id: 6,
+        path: "/#accomodations",
+        text: "accomodations",
+      },
+      {
+        id: 7,
         path: "/event-schedule",
         text: "schedule",
       },
@@ -55,7 +75,11 @@ export default class Navbar extends Component {
             {this.state.links.map(link => {
               return (
                 <li key={link.id} className="nav-item">
-                  <Link to={link.path} className="nav-link text-capitalize">
+                  <Link
+                    to={link.path}
+                    onClick={this.navbarHandler}
+                    className="nav-link text-capitalize"
+                  >
                     {link.text}
                   </Link>
                 </li>
