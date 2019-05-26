@@ -34,7 +34,7 @@ class GMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <section className="py-5 grey-background">
+      <section id="location" className="py-5 grey-background">
         <Title title="location" />
         <div style={{ height: "500px", width: "100%" }}>
           <GoogleMapReact

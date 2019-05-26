@@ -29,7 +29,7 @@ export default () => (
       }
     `}
     render={data => (
-      <section className="py-5">
+      <section id="swag" className="py-5">
         <div className="container">
           <Title title="Swag" />
           <div className="row">

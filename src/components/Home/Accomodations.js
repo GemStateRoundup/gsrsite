@@ -24,7 +24,7 @@ export default () => (
       }
     `}
     render={data => (
-      <section className="py-5">
+      <section id="accomodations" className="py-5">
         <Title title="accomodations" />
         <div className="row">
           <div className="container">
