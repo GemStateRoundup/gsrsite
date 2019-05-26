@@ -15,6 +15,11 @@ import Footer from "./Globals/Footer"
 import "./bootstrap.min.css"
 import "./layout.css"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ children }) => (
   <>
     <Navbar />
