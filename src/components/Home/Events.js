@@ -63,12 +63,63 @@ export default () => (
                       <p className="card-text">
                         <strong>Details:</strong>&nbsp;{node.note}
                       </p>
-                      <button
-                        type="button"
-                        className="btn btn-pink btn-lg btn-block mt-auto"
-                      >
-                        Add To Cart
-                      </button>
+                      {node.id === "daa21a34-00ce-53e0-b08d-afffb65daa48" ? (
+                        <button
+                          type="button"
+                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-custom1-name="Main Entree"
+                          data-item-custom1-options="Beef|Chicken|Salmon|Vegitarian"
+                          data-item-custom1-value="Beef"
+                          data-item-stackable="false"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      ) : node.id === "b2f260bf-5a6c-5472-8d0f-dddcedcae311" ? (
+                        <button
+                          type="button"
+                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-max-quantity="2"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      ) : node.id === "2eee714b-82b9-51c9-8290-bd67ef3d9942" ? (
+                        <button
+                          type="button"
+                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-max-quantity="2"
+                          data-item-custom2-name="Your Golfing Partner's Name"
+                          data-item-custom2-type="textarea"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
