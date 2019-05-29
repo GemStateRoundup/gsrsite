@@ -52,7 +52,12 @@ export default () => (
                       </p>
                       <button
                         type="button"
-                        className="btn btn-pink btn-lg btn-block mt-auto"
+                        className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                        data-item-id={node.id}
+                        data-item-name={node.item}
+                        data-item-price={node.price}
+                        data-item-image={node.image.fluid.src}
+                        data-item-url="http://gemstateroundup.netlify.com"
                       >
                         Add To Cart
                       </button>
