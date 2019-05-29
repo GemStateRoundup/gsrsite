@@ -59,7 +59,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark navbar-custom">
+      <nav className="navbar fixed-top navbar-expand-xl bg-dark navbar-dark navbar-custom">
         <Link to="/" className="navbar-brand">
           <span>Gem State Roundup {new Date().getFullYear().toString()}</span>
         </Link>
@@ -87,7 +87,7 @@ export default class Navbar extends Component {
             })}
             <div className="dropdown-divider" />
             <li className="nav-item nav-link">
-              <FaCartArrowDown className="cart-icon" />
+              <FaCartArrowDown className="cart-icon snipcart-checkout" />
             </li>
           </ul>
         </div>
