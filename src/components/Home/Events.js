@@ -32,7 +32,7 @@ export default () => (
       }
     `}
     render={data => (
-      <section id="events" className="py-5 grey-background">
+      <section id="events" className="py-4 grey-background">
         <div className="container">
           <Title title="Events" />
           <div className="row">
@@ -100,8 +100,7 @@ export default () => (
                           data-item-name={node.event}
                           data-item-price={node.price}
                           data-item-image={node.image.fluid.src}
-                          data-item-max-quantity="2"
-                          data-item-custom2-name="Your Golfing Partner's Name"
+                          data-item-custom2-name="Please Include Your Team Member's Names"
                           data-item-custom2-type="textarea"
                           data-item-url="http://gemstateroundup.netlify.com"
                         >
