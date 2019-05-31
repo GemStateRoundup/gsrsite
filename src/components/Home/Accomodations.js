@@ -24,10 +24,10 @@ export default () => (
       }
     `}
     render={data => (
-      <section id="accomodations" className="py-5">
+      <section id="accomodations" className="py-4">
         <Title title="accomodations" />
         <div className="row">
-          <div className="container">
+          <div className="container px-2">
             <Carousel>
               {data.allContentfulSlider.edges.map(({ node }) => {
                 return <Img fluid={node.image.fluid} key={node.id} />
