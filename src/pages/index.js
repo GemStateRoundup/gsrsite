@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
     />
     <MainHero
       img={data.img.childImageSharp.fluid}
-      // styleClass="default-background"
+      styleClass="default-background"
     />
     <Welcome />
     <Events />
