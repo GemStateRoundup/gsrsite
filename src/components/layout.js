@@ -14,6 +14,7 @@ import Footer from "./Globals/Footer"
 
 import "./bootstrap.min.css"
 import "./layout.css"
+import "../fonts/ZaloraInlineBold.ttf"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
