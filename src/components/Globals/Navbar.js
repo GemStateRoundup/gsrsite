@@ -39,6 +39,11 @@ export default class Navbar extends Component {
       },
       {
         id: 7,
+        path: "/#location",
+        text: "location",
+      },
+      {
+        id: 8,
         path: "/event-schedule",
         text: "schedule",
       },
