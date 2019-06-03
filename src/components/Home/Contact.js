@@ -134,7 +134,7 @@ export default class Contact extends Component {
                   <div className="col-sm-12">
                     <button
                       type="submit"
-                      className="btn btn-block btn-pink text-uppercase"
+                      className="btn btn-block btn-blue text-uppercase"
                       onClick={() => this.onSubmit()}
                     >
                       Submit
