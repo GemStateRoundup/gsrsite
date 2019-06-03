@@ -26,8 +26,18 @@ export default () => (
     render={data => (
       <section id="accomodations" className="py-4">
         <Title title="accomodations" />
+        <div className="text-center">
+          <p>
+            <strong>The Riverside Hotel</strong>
+          </p>
+          <p>
+            <a className="clean-links" href="tel:208-343-1871">
+              <strong>Phone:</strong> &nbsp; (208) 343-1871
+            </a>
+          </p>
+        </div>
         <div className="row">
-          <div className="container px-2">
+          <div className="container px-2 py-2 mb-4">
             <Carousel>
               {data.allContentfulSlider.edges.map(({ node }) => {
                 return <Img fluid={node.image.fluid} key={node.id} />
