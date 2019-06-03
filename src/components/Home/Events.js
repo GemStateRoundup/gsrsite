@@ -66,7 +66,7 @@ export default () => (
                       {node.id === "daa21a34-00ce-53e0-b08d-afffb65daa48" ? (
                         <button
                           type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
                           data-item-id={node.id}
                           data-item-name={node.event}
                           data-item-price={node.price}
@@ -82,7 +82,7 @@ export default () => (
                       ) : node.id === "b2f260bf-5a6c-5472-8d0f-dddcedcae311" ? (
                         <button
                           type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
                           data-item-id={node.id}
                           data-item-name={node.event}
                           data-item-price={node.price}
@@ -95,7 +95,7 @@ export default () => (
                       ) : node.id === "2eee714b-82b9-51c9-8290-bd67ef3d9942" ? (
                         <button
                           type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
                           data-item-id={node.id}
                           data-item-name={node.event}
                           data-item-price={node.price}
@@ -109,7 +109,7 @@ export default () => (
                       ) : (
                         <button
                           type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
                           data-item-id={node.id}
                           data-item-name={node.event}
                           data-item-price={node.price}
