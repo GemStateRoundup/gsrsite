@@ -7,7 +7,7 @@ const HotelLocation = ({ text }) => (
     <div
       style={{
         color: "white",
-        background: "#ee4aea",
+        background: "#000080",
         padding: "15px 10px",
         display: "inline-flex",
         textAlign: "center",
@@ -36,6 +36,18 @@ class GMap extends Component {
       // Important! Always set the container height explicitly
       <section id="location" className="pt-4 grey-background">
         <Title title="location" />
+        <div className="text-center">
+          <p>
+            <a
+              className="clean-links"
+              href="https://goo.gl/maps/rSCTqcUYxENLmy8b9"
+              target="_blank"
+            >
+              <strong>Address:</strong> &nbsp; 2900 W Chinden Blvd, Boise, ID
+              83714
+            </a>
+          </p>
+        </div>
         <div style={{ height: "500px", width: "100%" }}>
           <GoogleMapReact
             bootstrapURLKeys={{
