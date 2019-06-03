@@ -1,10 +1,14 @@
 :root {
-  --mainBrown: #2d1ef1;
-  --mainPink: #ee4aea;
+  --mainBlue: #000080;
   --mainGrey: #ededed;
   --mainWhite: #fff;
   --mainDark: #222;
   --mainBlack: #000;
+}
+
+@font-face {
+  font-family: "Zalora";
+  src: url("../fonts/ZaloraInlineBold.ttf");
 }
 
 body {
@@ -19,9 +23,24 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Courier New", Courier, monospace !important;
+h6,
+.navbar-brand {
+  font-family: "Zalora", "Courier New", Courier, monospace !important;
   letter-spacing: 0.25rem !important;
+}
+
+.header-title {
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a.clean-links {
+  text-decoration: none;
+  color: var(--mainDark);
+}
+
+a.clean-links:hover {
+  color: var(--mainBlue);
 }
 
 #mG61Hd {
@@ -32,13 +51,13 @@ h6 {
   background-color: var(--mainGrey);
 }
 
-.btn-pink {
+.btn-blue {
   color: var(--mainWhite);
-  border-color: var(--mainPink);
-  background: var(--mainPink);
+  border-color: var(--mainBlue);
+  background: var(--mainBlue);
 }
 
-.btn-pink:hover {
+.btn-blue:hover {
   color: var(--mainWhite);
   border-color: var(--mainBlack);
   background: var(--mainBlack);
@@ -83,7 +102,7 @@ table.table-hover tbody tr:hover {
   display: flex;
   align-items: center;
   justify-content: start;
-  background: linear-gradient(rgba(230, 56, 192, 0.8), rgba(244, 66, 206, 0.7));
+  background: linear-gradient(rgba(0, 0, 128, 0.95), rgba(0, 0, 128, 0.75));
   background-position: center;
   background-size: cover;
 }
