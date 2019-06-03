@@ -50,49 +50,18 @@ export default () => (
                         {node.price}
                         <span>.00</span>
                       </p>
-                      {node.id === "1687c0f9-ef28-52f6-a59c-629303b3acae" ? (
-                        <button
-                          type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
-                          data-item-id={node.id}
-                          data-item-name={node.item}
-                          data-item-price={node.price}
-                          data-item-custom1-name="Size"
-                          data-item-custom1-options="Small|Medium[+5.00]|Large[+10.00]|Kid[-5.00]"
-                          data-item-custom1-value="Medium"
-                          data-item-image={node.image.fluid.src}
-                          data-item-url="http://gemstateroundup.netlify.com"
-                        >
-                          Add To Cart
-                        </button>
-                      ) : node.id === "6091fcde-cc1a-56f0-93b1-b2e0026f7edb" ? (
-                        <button
-                          type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
-                          data-item-id={node.id}
-                          data-item-name={node.item}
-                          data-item-price={node.price}
-                          data-item-custom2-name="Size"
-                          data-item-custom2-options="Small|Medium[+5.00]|Large[+10.00]|Kid[-5.00]"
-                          data-item-custom2-value="Medium"
-                          data-item-image={node.image.fluid.src}
-                          data-item-url="http://gemstateroundup.netlify.com"
-                        >
-                          Add To Cart
-                        </button>
-                      ) : (
-                        <button
-                          type="button"
-                          className="btn btn-pink btn-lg btn-block mt-auto snipcart-add-item"
-                          data-item-id={node.id}
-                          data-item-name={node.item}
-                          data-item-price={node.price}
-                          data-item-image={node.image.fluid.src}
-                          data-item-url="http://gemstateroundup.netlify.com"
-                        >
-                          Add To Cart
-                        </button>
-                      )}
+
+                      <button
+                        type="button"
+                        className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
+                        data-item-id={node.id}
+                        data-item-name={node.item}
+                        data-item-price={node.price}
+                        data-item-image={node.image.fluid.src}
+                        data-item-url="http://gemstateroundup.netlify.com"
+                      >
+                        Add To Cart
+                      </button>
                     </div>
                   </div>
                 </div>
