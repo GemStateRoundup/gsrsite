@@ -75,7 +75,8 @@ table thead th {
 }
 
 table.table-hover tbody tr:hover {
-  background-color: var(--mainPink) !important;
+  background-color: var(--mainBlue) !important;
+  color: var(--mainWhite) !important;
 }
 
 /* change the link color */
@@ -99,6 +100,7 @@ table.table-hover tbody tr:hover {
 .default-background,
 .pages {
   min-height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: start;
