@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gem State Roundup 2019`,
+    title: `Gem State Roundup`,
     description: `Welcome to the official website of the 2019 Gem State Roundup.`,
     author: `Mark Long`,
   },
@@ -43,7 +43,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/keynote_speaker.svg`, // This path is relative to the root of the site.
+        icon: `src/images/speaker.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
