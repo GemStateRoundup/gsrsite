@@ -9,12 +9,16 @@ export default function Welcome() {
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate tenetur rerum numquam laudantium, maxime quo quod, nam
-              commodi aliquid amet neque repudiandae ea sed veniam corporis.
-              Nostrum eaque aliquid sunt quidem ipsam. Dolorum nobis magni
-              dolore veritatis architecto quia, cum nisi esse quam commodi?
-              Consequatur ut quaerat velit doloribus est!
+              Welcome to the Official Website of the 2019 Gem State Roundup in
+              beautiful Boise Idaho. We are looking forward to fellowshipping
+              with you during the weekend of August 9th, 10th and 11th. You can
+              conveniently register for The Gem State Roundup and all events
+              this site. We have also included a telephone link to the Riverside
+              Hotel in the Accomodations section and a Google Map in the
+              Location section of the website to make booking and navigating a
+              breaze. Please drop us a message in the Contact Form provided
+              below if you would like to have a commitment at the Roundup or if
+              you have a question that you need answered.
             </p>
           </div>
         </div>
