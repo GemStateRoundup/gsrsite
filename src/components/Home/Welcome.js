@@ -12,7 +12,7 @@ export default function Welcome() {
               Welcome to the Official Website of the 2019 Gem State Roundup in
               beautiful Boise Idaho. We are looking forward to fellowshipping
               with you during the weekend of August 9th, 10th and 11th. You can
-              conveniently register for The Gem State Roundup and all events
+              conveniently register for The Gem State Roundup and all events on
               this site. We have also included a telephone link to the Riverside
               Hotel in the Accomodations section and a Google Map in the
               Location section of the website to make booking and navigating a
