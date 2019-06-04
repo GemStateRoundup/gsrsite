@@ -120,6 +120,22 @@ export default () => (
                         >
                           Add To Cart
                         </button>
+                      ) : node.id === "b2ab3ccd-0eeb-5740-adc9-066872674994" ? (
+                        <button
+                          type="button"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-custom1-name="Donation Amount"
+                          data-item-custom1-options="Single Scoop|Double Scoop[+15.00]|Triple Scoop[+40.00]|Hot Fudge Sunday[+65.00]|Banana Split[+90.00]"
+                          data-item-custom1-value="Standard"
+                          data-item-stackable="false"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
                       ) : (
                         <button
                           type="button"
