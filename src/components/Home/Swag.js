@@ -50,18 +50,35 @@ export default () => (
                         {node.price}
                         <span>.00</span>
                       </p>
-
-                      <button
-                        type="button"
-                        className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
-                        data-item-id={node.id}
-                        data-item-name={node.item}
-                        data-item-price={node.price}
-                        data-item-image={node.image.fluid.src}
-                        data-item-url="http://gemstateroundup.netlify.com"
-                      >
-                        Add To Cart
-                      </button>
+                      {node.id === "1687c0f9-ef28-52f6-a59c-629303b3acae" ||
+                      node.id === "6091fcde-cc1a-56f0-93b1-b2e0026f7edb" ? (
+                        <button
+                          type="button"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.item}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-custom1-name="Size"
+                          data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large|3X-Large"
+                          data-item-custom1-value="Large"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.item}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
