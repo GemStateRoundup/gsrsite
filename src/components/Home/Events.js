@@ -63,7 +63,21 @@ export default () => (
                       <p className="card-text">
                         <strong>Details:</strong>&nbsp;{node.note}
                       </p>
-                      {node.id === "daa21a34-00ce-53e0-b08d-afffb65daa48" ? (
+                      {node.id === "472a23d0-a636-53ac-9919-2fac330e6557" ? (
+                        <button
+                          type="button"
+                          className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
+                          data-item-id={node.id}
+                          data-item-name={node.event}
+                          data-item-price={node.price}
+                          data-item-image={node.image.fluid.src}
+                          data-item-custom0-name="Home Group"
+                          data-item-custom0-type="textarea"
+                          data-item-url="http://gemstateroundup.netlify.com"
+                        >
+                          Add To Cart
+                        </button>
+                      ) : node.id === "daa21a34-00ce-53e0-b08d-afffb65daa48" ? (
                         <button
                           type="button"
                           className="btn btn-blue btn-lg btn-block mt-auto snipcart-add-item"
