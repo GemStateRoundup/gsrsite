@@ -62,7 +62,7 @@ export default () => (
                           data-item-custom1-name="Size"
                           data-item-custom1-options="Small|Medium|Large|X-Large|2X-Large|3X-Large"
                           data-item-custom1-value="Large"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -74,7 +74,7 @@ export default () => (
                           data-item-name={node.item}
                           data-item-price={node.price}
                           data-item-image={node.image.fluid.src}
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>

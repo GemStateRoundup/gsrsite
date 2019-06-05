@@ -73,7 +73,7 @@ export default () => (
                           data-item-image={node.image.fluid.src}
                           data-item-custom0-name="Home Group"
                           data-item-custom0-type="textarea"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -89,7 +89,7 @@ export default () => (
                           data-item-custom1-options="Beef|Chicken|Salmon|Vegitarian"
                           data-item-custom1-value="Beef"
                           data-item-stackable="false"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -102,7 +102,7 @@ export default () => (
                           data-item-price={node.price}
                           data-item-image={node.image.fluid.src}
                           data-item-max-quantity="2"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -116,7 +116,7 @@ export default () => (
                           data-item-image={node.image.fluid.src}
                           data-item-custom2-name="Please Include Your Team Member's Names"
                           data-item-custom2-type="textarea"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -132,7 +132,7 @@ export default () => (
                           data-item-custom1-options="Single Scoop|Double Scoop[+15.00]|Triple Scoop[+40.00]|Hot Fudge Sunday[+65.00]|Banana Split[+90.00]"
                           data-item-custom1-value="Standard"
                           data-item-stackable="false"
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
@@ -144,7 +144,7 @@ export default () => (
                           data-item-name={node.event}
                           data-item-price={node.price}
                           data-item-image={node.image.fluid.src}
-                          data-item-url="http://gemstateroundup.netlify.com"
+                          data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
                         </button>
