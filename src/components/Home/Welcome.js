@@ -18,7 +18,9 @@ export default function Welcome() {
               Location section of the website to make booking and navigating a
               breaze. Please drop us a message in the Contact Form provided
               below if you would like to have a commitment at the Roundup or if
-              you have a question that you need answered.
+              you have a question that you need answered.Finally, please check
+              the Schedule link in the nain navigation for information regarding
+              all scheduled panels, presentations and events.
             </p>
           </div>
         </div>
