@@ -113,6 +113,39 @@ table.table-hover tbody tr:hover {
   min-height: 50vh;
 }
 
+.swag {
+  display: grid;
+  grid-template-areas: "overlap";
+  transform-style: preserve-3d;
+  transition: 1s all ease-in-out;
+}
+
+.front {
+  background-color: #ffffff;
+}
+
+.back {
+  background-color: #ffffff;
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  cursor: pointer;
+  grid-area: overlap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+  transition: 1s all ease-in-out;
+  cursor: default;
+}
+
 /* Media Queries */
 @media screen and (max-width: 815px) {
   .display-4 {
