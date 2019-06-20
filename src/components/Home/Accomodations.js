@@ -35,6 +35,10 @@ export default () => (
               <strong>Phone:</strong> &nbsp; (208) 343-1871
             </a>
           </p>
+          <p>
+            Hotel price is $107.00 per night at the Riverside Hotel when you
+            mention being apart of the Gem State Roundup.
+          </p>
         </div>
         <div className="row">
           <div className="container px-2 py-2 mb-4">
