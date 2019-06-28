@@ -22,7 +22,7 @@ export default function Welcome() {
               the Schedule link in the main navigation for information regarding
               all scheduled panels, presentations and events.
             </p>
-            <h1>Dinner Banquet Info</h1>
+            <Title title="Dinner Banquet Info" />
             <div>
               <h5 className="mt-4">Main course is your choice of:</h5>
               <ul className="lead text-muted" style={{ listStyleType: "none" }}>
@@ -41,7 +41,7 @@ export default function Welcome() {
                 Iced Tea, Lemonade, and Coffee Service at each table
               </p>
             </div>
-            <h1>Registration Info</h1>
+            <Title title="Registration Info" />
             <p className="lead text-muted mb-4">
               If you would feel more comfortable downloading a copy of The Gem
               State Roundup Registration Form instead of registering online
