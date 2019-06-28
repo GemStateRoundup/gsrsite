@@ -73,6 +73,8 @@ export default () => (
                           data-item-image={node.image.fluid.src}
                           data-item-custom0-name="Home Group"
                           data-item-custom0-type="textarea"
+                          data-item-custom1-name="Additional Registrants"
+                          data-item-custom1-type="textarea"
                           data-item-url="https://gemstateroundup.org"
                         >
                           Add To Cart
