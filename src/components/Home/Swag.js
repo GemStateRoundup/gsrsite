@@ -62,7 +62,7 @@ export default class Swag extends Component {
           }
         `}
         render={data => (
-          <section id="swag" className="py-4">
+          <section id="swag" className="pt-2 pb-5">
             <div className="container">
               <Title title="Swag" />
               <div className="row">

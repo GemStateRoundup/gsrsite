@@ -32,7 +32,7 @@ export default () => (
       }
     `}
     render={data => (
-      <section id="events" className="py-4 grey-background">
+      <section id="events" className="pt-2 pb-5 grey-background ">
         <div className="container">
           <Title title="Events" />
           <div className="row">

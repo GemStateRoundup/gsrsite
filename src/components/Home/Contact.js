@@ -22,7 +22,7 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <section id="contact" className="py-4 grey-background">
+      <section id="contact" className="py-2 grey-background">
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <div className="container">

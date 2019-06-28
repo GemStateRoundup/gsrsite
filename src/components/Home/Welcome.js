@@ -3,7 +3,7 @@ import Title from "../Globals/Title"
 
 export default function Welcome() {
   return (
-    <section id="welcome" className="py-3 my-5">
+    <section id="welcome" className="pt-2 pb-5">
       <div className="container">
         <Title title="welcome" />
         <div className="row">
