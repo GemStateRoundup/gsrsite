@@ -42,6 +42,7 @@ class GMap extends Component {
               className="clean-links"
               href="https://goo.gl/maps/rSCTqcUYxENLmy8b9"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <strong>Address:</strong> &nbsp; 2900 W Chinden Blvd, Boise, ID
               83714

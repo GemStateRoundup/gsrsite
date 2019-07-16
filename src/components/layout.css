@@ -93,8 +93,33 @@ table.table-hover tbody tr:hover {
 }
 
 .cart-icon {
+  color: var(--mainWhite);
+  font-size: 1.25rem !important;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 350px;
   cursor: pointer;
-  font-size: 2rem !important;
+  color: var(--mainwhite);
+}
+
+.checkout-wrapper {
+  position: fixed;
+  top: 15%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  background-color: var(--mainBlack);
+  border: 2px solid var(--mainWhite);
+  border-radius: 7px;
+}
+
+.hide {
+  display: none;
 }
 
 .default-background,
@@ -147,6 +172,20 @@ table.table-hover tbody tr:hover {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1400px) {
+  .checkout-wrapper {
+    top: 18%;
+    left: 85%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .checkout-wrapper {
+    top: 15%;
+    left: 50%;
+  }
+}
+
 @media screen and (max-width: 815px) {
   .display-4 {
     font-size: 1.75rem;
@@ -159,6 +198,7 @@ table.table-hover tbody tr:hover {
     height: 1em;
   }
   .navbar {
+    height: 65px;
     padding: 0.5rem 1.2rem !important;
   }
   .pages {
@@ -172,6 +212,9 @@ table.table-hover tbody tr:hover {
   }
   .navbar-brand {
     font-size: 0.8rem;
+  }
+  .checkout {
+    width: 315px;
   }
 }
 

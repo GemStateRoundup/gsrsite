@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { StaticQuery, Link, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Title from "../Globals/Title"
 

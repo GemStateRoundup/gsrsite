@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { FaCartArrowDown } from "react-icons/fa"
 
 export default class Navbar extends Component {
   state = {
@@ -91,12 +90,13 @@ export default class Navbar extends Component {
               )
             })}
             <div className="dropdown-divider" />
-            <li className="nav-item nav-link">
-              <FaCartArrowDown className="cart-icon snipcart-checkout" />
-            </li>
           </ul>
         </div>
       </nav>
     )
   }
 }
+
+/* <li className="nav-item nav-link">
+  <FaCartArrowDown className="cart-icon snipcart-checkout" />
+</li> */

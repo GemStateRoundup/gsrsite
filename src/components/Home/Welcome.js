@@ -51,6 +51,7 @@ export default function Welcome() {
               style={{ textDecoration: "none", color: "white" }}
               href="https://drive.google.com/file/d/16gXjlw2ObiRRw5jePOfJIelaHg8gq5hx/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="btn btn-blue btn-lg"> Download</button>
             </a>
