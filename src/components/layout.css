@@ -82,10 +82,6 @@ table.table-hover tbody tr:hover {
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
   color: var(--mainWhite) !important;
-  /* background-color: var(--mainBlack); */
-
-  padding-left: 10px;
-  width: 100vw;
 }
 
 .nav-item {
@@ -99,12 +95,6 @@ table.table-hover tbody tr:hover {
 .cart-icon:hover {
   color: var(--mainGrey) !important;
 }
-
-/* .navbar-nav,
-.navbar-collapse,
-.collapse {
-  background-color: #000;
-} */
 
 .cart-icon {
   color: var(--mainWhite);
@@ -212,7 +202,6 @@ table.table-hover tbody tr:hover {
     height: 0.9em;
   }
   .navbar {
-    /* height: 65px; */
     padding: 0.5rem 1.2rem !important;
   }
   .pages {
