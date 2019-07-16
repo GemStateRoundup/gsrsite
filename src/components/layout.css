@@ -82,11 +82,14 @@ table.table-hover tbody tr:hover {
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
   color: var(--mainWhite) !important;
-  background-color: var(--mainBlack);
+  /* background-color: var(--mainBlack); */
+
+  padding-left: 10px;
+  width: 100vw;
 }
 
-.navbar-nav {
-  width: 100vw !important;
+.nav-item {
+  border-top: 1px soild var(--mainWhite);
 }
 
 /* change the color of active or hovered links */
@@ -202,14 +205,14 @@ table.table-hover tbody tr:hover {
     font-size: 1.75rem;
   }
   .navbar-brand {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .navbar-toggler-icon {
-    width: 0.75em;
-    height: 0.75em;
+    width: 0.9em;
+    height: 0.9em;
   }
   .navbar {
-    height: 65px;
+    /* height: 65px; */
     padding: 0.5rem 1.2rem !important;
   }
   .pages {
