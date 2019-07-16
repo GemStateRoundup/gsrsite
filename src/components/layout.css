@@ -82,6 +82,11 @@ table.table-hover tbody tr:hover {
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
   color: var(--mainWhite) !important;
+  background-color: var(--mainBlack);
+}
+
+.navbar-nav {
+  width: 100vw !important;
 }
 
 /* change the color of active or hovered links */
@@ -92,12 +97,11 @@ table.table-hover tbody tr:hover {
   color: var(--mainGrey) !important;
 }
 
-.navbar-nav,
+/* .navbar-nav,
 .navbar-collapse,
 .collapse {
-  width: 100vw;
   background-color: #000;
-}
+} */
 
 .cart-icon {
   color: var(--mainWhite);
@@ -126,7 +130,7 @@ table.table-hover tbody tr:hover {
 }
 
 .hide {
-  visibility: hidden;
+  display: none;
 }
 
 .default-background,
@@ -198,11 +202,11 @@ table.table-hover tbody tr:hover {
     font-size: 1.75rem;
   }
   .navbar-brand {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
   .navbar-toggler-icon {
-    width: 1em;
-    height: 1em;
+    width: 0.75em;
+    height: 0.75em;
   }
   .navbar {
     height: 65px;
@@ -220,9 +224,9 @@ table.table-hover tbody tr:hover {
   .navbar-brand {
     font-size: 0.8rem;
   }
-  .checkout {
+  /* .checkout {
     width: 315px;
-  }
+  } */
 }
 
 @media only screen and (max-height: 1025px) {

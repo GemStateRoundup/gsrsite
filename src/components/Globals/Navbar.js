@@ -75,7 +75,7 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon" />
         </button>
         <div className={this.state.css}>
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav">
             {this.state.links.map(link => {
               return (
                 <li key={link.id} className="nav-item">
@@ -95,7 +95,3 @@ export default class Navbar extends Component {
     )
   }
 }
-
-/* <li className="nav-item nav-link">
-  <FaCartArrowDown className="cart-icon snipcart-checkout" />
-</li> */
