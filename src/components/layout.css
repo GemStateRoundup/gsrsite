@@ -92,6 +92,13 @@ table.table-hover tbody tr:hover {
   color: var(--mainGrey) !important;
 }
 
+.navbar-nav,
+.navbar-collapse,
+.collapse {
+  width: 100vw;
+  background-color: #000;
+}
+
 .cart-icon {
   color: var(--mainWhite);
   font-size: 1.25rem !important;
@@ -119,7 +126,7 @@ table.table-hover tbody tr:hover {
 }
 
 .hide {
-  display: none;
+  visibility: hidden;
 }
 
 .default-background,

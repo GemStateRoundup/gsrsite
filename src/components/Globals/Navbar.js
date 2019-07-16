@@ -89,7 +89,6 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-            <div className="dropdown-divider" />
           </ul>
         </div>
       </nav>
