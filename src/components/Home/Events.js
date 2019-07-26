@@ -70,6 +70,7 @@ export default () => (
                           data-item-id={node.id}
                           data-item-name={node.event}
                           data-item-price={node.price}
+                          data-item-price-vip="20.00"
                           data-item-image={node.image.fluid.src}
                           data-item-custom0-name="Home Group"
                           data-item-custom0-type="textarea"
