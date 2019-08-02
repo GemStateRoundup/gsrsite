@@ -99,6 +99,7 @@ table.table-hover tbody tr:hover {
 .cart-icon {
   color: var(--mainWhite);
   font-size: 1.25rem !important;
+  cursor: pointer;
 }
 
 .checkout {
