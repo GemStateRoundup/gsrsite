@@ -43,9 +43,13 @@ export default function Welcome() {
             </div>
             <Title title="Registration Info" />
             <p className="lead text-muted mb-4">
-              If you would feel more comfortable downloading a copy of The Gem
-              State Roundup Registration Form instead of registering online
-              click the button below.
+              Online Registration for The 2019 Gem State Roundup and the Roundup
+              Events/Swag has ended. Please check event site registration
+              information by clicking the Schedule link provided in the
+              navigation above. Additionally you may still download a copy of
+              The Gem State Roundup Registration Form by clicking the button
+              below. Please present it at the registration desk in the lobby at
+              the event when you arrive.
             </p>
             <a
               style={{ textDecoration: "none", color: "white" }}
