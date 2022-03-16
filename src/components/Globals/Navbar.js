@@ -17,16 +17,16 @@ export default class Navbar extends Component {
         path: "/#welcome",
         text: "welcome",
       },
-      // {
-      //   id: 3,
-      //   path: "/#events",
-      //   text: "events",
-      // },
-      // {
-      //   id: 4,
-      //   path: "/#swag",
-      //   text: "swag",
-      // },
+      {
+        id: 3,
+        path: "/#events",
+        text: "events",
+      },
+      {
+        id: 4,
+        path: "/#swag",
+        text: "swag",
+      },
       {
         id: 5,
         path: "/#contact",
