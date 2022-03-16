@@ -8,6 +8,7 @@ import MainHero from "../components/Home/MainHero"
 import Checkout from "../components/Globals/Checkout"
 import Welcome from "../components/Home/Welcome"
 import Events from "../components/Home/Events"
+import Swag from "../components/Home/Swag"
 import GMap from "../components/Home/GMap"
 import Contact from "../components/Home/Contact"
 import Accomodations from "../components/Home/Accomodations"
@@ -47,6 +48,7 @@ export default class IndexPage extends Component {
         />
         <Welcome />
         <Events />
+        <Swag />
         <Contact />
         <Accomodations />
         <GMap />
