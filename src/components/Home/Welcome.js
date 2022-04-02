@@ -9,36 +9,34 @@ export default function Welcome() {
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <p className="lead text-muted mb-5">
-              Welcome to the Official Website of the 2019 Gem State Roundup in
-              beautiful Boise Idaho. We are looking forward to fellowshipping
-              with you during the weekend of August 9th, 10th and 11th. You can
-              conveniently register for The Gem State Roundup and all events on
-              this site. We have also included a telephone link to the Riverside
-              Hotel in the Accomodations section and a Google Map in the
-              Location section of the website to make booking and navigating a
-              breaze. Please drop us a message in the Contact Form provided
-              below if you would like to have a commitment at the Roundup or if
-              you have a question that you need answered.Finally, please check
-              the Schedule link in the main navigation for information regarding
-              all scheduled panels, presentations and events.
+              Hello Everyone, and Welcome Back! We are glad to host you for our
+              2022 Gem State Round Up, held this year on the beautiful,
+              riverside campus of Boise State, inside the Jordan Ballroom, in
+              downtown Boise, Idaho! This is our 1st Round Up since 2019, and we
+              decided to make this year’s event a full one day, no holds barred
+              – lollapalooza!
+            </p>
+            <p className="lead text-muted mb-5">
+              Our event this year is being co-hosted with Al-Anon participation,
+              and includes “round the clock” alkathon/Al-Anon Meetings, panels
+              hosted by AA Groups from across the state, an Al-Anon Luncheon,
+              and our featured AA Speaker, Rod B. from Salt Lake City – after
+              our evening meal. We’ll wrap up the day with a comedian and
+              hypnotist – Terry Stokes – all the way from Florida. Please take a
+              look at the full agenda listed here for additional details.
+            </p>
+            <p className="lead mb-5">
+              We look forward to seeing you soon on August 27th!
             </p>
             <Title title="Dinner Banquet Info" />
             <div>
-              <h5 className="mt-4">Main course is your choice of:</h5>
-              <ul className="lead text-muted" style={{ listStyleType: "none" }}>
-                <li>Crusted Beef Sirloin with Truffle Demi-glace</li>
-                <li>
-                  Herb-Marinated Chicken Breast with Garlic Rosemary Cream Sauce
-                </li>
-                <li>Herb-Crusted Salmon with Horseradish Cream Sauce</li>
-                <li>Vegetarian Wellington</li>
-              </ul>
-              <p className="lead text-muted mt-0 mb-5">
-                Each plate is served with a crisp green salad with assorted
-                dressings, an assortment of rolls with butter, garlic mashed
-                potatoes, mixed vegetables with vegetarian demi-glace. Meal
-                finished with a Chocolate Panna Cotta with Cherry Gelee, Water,
-                Iced Tea, Lemonade, and Coffee Service at each table
+              <p className="lead text-muted mb-5">
+                This year, we will be leveraging the food service facilities
+                which the University uses on campus for all events. For both
+                lunch and dinner, we’ll be serving from a buffet located inside
+                the Ballroom space. Full details of the meals, and associated
+                pricing, for both lunch and dinner are available in the tabs
+                below.
               </p>
             </div>
             <Title title="Registration Info" />
@@ -53,7 +51,7 @@ export default function Welcome() {
             </p>
             <a
               style={{ textDecoration: "none", color: "white" }}
-              href="https://drive.google.com/file/d/16gXjlw2ObiRRw5jePOfJIelaHg8gq5hx/view?usp=sharing"
+              href="https://drive.google.com/file/d/1h8KltrgI-P07tO0l4F-vbUcqjaA9-ia2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -6,10 +6,10 @@
   --mainBlack: #000;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Zalora";
   src: url("../fonts/ZaloraInlineBold.ttf");
-}
+} */
 
 body {
   background: var(--mainWhite);
@@ -53,14 +53,14 @@ a.clean-links:hover {
 
 .btn-blue {
   color: var(--mainWhite);
-  border-color: var(--mainBlue);
-  background: var(--mainBlue);
+  border-color: var(--mainBlack);
+  background: var(--mainBlack);
 }
 
 .btn-blue:hover {
   color: var(--mainWhite);
-  border-color: var(--mainBlack);
-  background: var(--mainBlack);
+  border-color: var(--mainDark);
+  background: var(--mainDark);
 }
 
 .footer {
