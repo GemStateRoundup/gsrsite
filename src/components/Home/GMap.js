@@ -7,7 +7,7 @@ const HotelLocation = ({ text }) => (
     <div
       style={{
         color: "white",
-        background: "#000080",
+        background: "#808b7d",
         padding: "15px 10px",
         display: "inline-flex",
         textAlign: "center",
@@ -25,8 +25,8 @@ const HotelLocation = ({ text }) => (
 class GMap extends Component {
   static defaultProps = {
     center: {
-      lat: 43.619837,
-      lng: -116.235154,
+      lat: 43.6036,
+      lng: -116.208707,
     },
     zoom: 15,
   }
@@ -44,8 +44,9 @@ class GMap extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <strong>Address:</strong> &nbsp; 2900 W Chinden Blvd, Boise, ID
-              83714
+              <strong>Address:</strong> &nbsp; 1910 W University Dr. Boise, ID
+              83725 <br />
+              "The Jordan Ballroom"
             </a>
           </p>
         </div>
@@ -58,9 +59,9 @@ class GMap extends Component {
             defaultZoom={this.props.zoom}
           >
             <HotelLocation
-              lat={43.619837}
-              lng={-116.235154}
-              text="Riverside Hotel"
+              lat={43.6036}
+              lng={-116.208707}
+              text="Jordan Ballroom"
             />
           </GoogleMapReact>
         </div>

@@ -75,7 +75,7 @@ table thead th {
 }
 
 table.table-hover tbody tr:hover {
-  background-color: var(--mainBlue) !important;
+  background-color: #808b7d !important;
   color: var(--mainWhite) !important;
 }
 
@@ -134,7 +134,10 @@ table.table-hover tbody tr:hover {
   display: flex;
   align-items: center;
   justify-content: start;
-  background: linear-gradient(rgba(0, 0, 128, 0.95), rgba(0, 0, 128, 0.75));
+  background: linear-gradient(
+    rgba(128, 139, 125, 0.95),
+    rgba(128, 139, 125, 0.75)
+  );
   background-position: center;
   background-size: cover;
 }

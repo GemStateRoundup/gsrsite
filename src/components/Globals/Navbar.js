@@ -22,21 +22,21 @@ export default class Navbar extends Component {
         path: "/#events",
         text: "events",
       },
-      {
-        id: 4,
-        path: "/#swag",
-        text: "swag",
-      },
+      // {
+      //   id: 4,
+      //   path: "/#swag",
+      //   text: "swag",
+      // },
       {
         id: 5,
         path: "/#contact",
         text: "contact",
       },
-      {
-        id: 6,
-        path: "/#accomodations",
-        text: "accomodations",
-      },
+      // {
+      //   id: 6,
+      //   path: "/#accomodations",
+      //   text: "accomodations",
+      // },
       {
         id: 7,
         path: "/#location",
