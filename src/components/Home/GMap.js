@@ -33,7 +33,7 @@ class GMap extends Component {
 
   render() {
     return (
-      // Important! Always set the container height explicitly
+      // Important! Always set the container height explicitly...
       <section id="location" className="pt-3 grey-background">
         <Title title="location" />
         <div className="text-center">
