@@ -22,8 +22,8 @@ export default function Welcome() {
               hosted by AA Groups from across the state, an Al-Anon Luncheon,
               and our featured AA Speaker, Rod B. from Salt Lake City – after
               our evening meal. We’ll wrap up the day with a comedian and
-              hypnotist – Terry Stokes – all the way from Florida. Please take a
-              look at the full agenda listed here for additional details.
+              hypnotist – Terry Stokes – all the way from Las Vegas, NV. Please
+              take a look at the full agenda listed here for additional details.
             </p>
             <p className="lead mb-5">
               We look forward to seeing you soon on August 27th!
