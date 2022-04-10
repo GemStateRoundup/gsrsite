@@ -49,7 +49,7 @@ export default function Welcome() {
             </p>
             <a
               style={{ textDecoration: "none", color: "white" }}
-              href="https://drive.google.com/file/d/1h8KltrgI-P07tO0l4F-vbUcqjaA9-ia2/view?usp=sharing"
+              href="https://drive.google.com/file/d/118B_rXOjyEmg7ywndN9gSApTjDOmjnk-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
