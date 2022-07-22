@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Gem State Roundup`,
-    description: `Welcome to the official website of the 2019 Gem State Roundup.`,
+    description: `Welcome to the official website of the 2022 Gem State Roundup.`,
     author: `Mark Long`,
   },
   plugins: [
