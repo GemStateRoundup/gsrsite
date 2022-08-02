@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-// import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Title from "../Globals/Title"
 
@@ -9,11 +9,11 @@ export default class Swag extends Component {
     css: "swag",
   }
 
-  // toggleFlipped = () => {
-  //   this.setState({
-  //     isActive: !this.state.isActive,
-  //   })
-  // }
+  toggleFlipped = () => {
+    this.setState({
+      isActive: !this.state.isActive,
+    })
+  }
 
   toggleFlipped = () => {
     this.state.isActive
@@ -29,38 +29,38 @@ export default class Swag extends Component {
 
   render() {
     return (
-      // <StaticQuery
-      //   query={graphql`
-      //     {
-      //       allContentfulSwag {
-      //         edges {
-      //           node {
-      //             id
-      //             item
-      //             imageFront {
-      //               id
-      //               fluid(maxWidth: 300) {
-      //                 src
-      //                 ...GatsbyContentfulFluid_tracedSVG
-      //               }
-      //             }
-      //             imageBack {
-      //               id
-      //               fluid(maxWidth: 300) {
-      //                 src
-      //                 ...GatsbyContentfulFluid_tracedSVG
-      //               }
-      //             }
-      //             price
-      //             description {
-      //               description
-      //             }
-      //             category
-      //           }
-      //         }
-      //       }
-      //     }
-      //   `}
+      <StaticQuery
+        query={graphql`
+          {
+            allContentfulSwag {
+              edges {
+                node {
+                  id
+                  item
+                  imageFront {
+                    id
+                    fluid(maxWidth: 300) {
+                      src
+                      ...GatsbyContentfulFluid_tracedSVG
+                    }
+                  }
+                  imageBack {
+                    id
+                    fluid(maxWidth: 300) {
+                      src
+                      ...GatsbyContentfulFluid_tracedSVG
+                    }
+                  }
+                  price
+                  description {
+                    description
+                  }
+                  category
+                }
+              }
+            }
+          }
+        `}
         render={data => (
           <section id="swag" className="pt-3 pb-5">
             <div className="container">
