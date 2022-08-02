@@ -1,28 +1,28 @@
 import React from "react"
 import Carousel from "nuka-carousel"
-// import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Title from "../Globals/Title"
 
 export default () => (
-  // <StaticQuery
-  //   query={graphql`
-  //     {
-  //       allContentfulSlider(sort: { fields: number }) {
-  //         edges {
-  //           node {
-  //             id
-  //             image {
-  //               fluid(maxWidth: 1000) {
-  //                 src
-  //                 ...GatsbyContentfulFluid_tracedSVG
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `}
+  <StaticQuery
+    query={graphql`
+      {
+        allContentfulSlider(sort: { fields: number }) {
+          edges {
+            node {
+              id
+              image {
+                fluid(maxWidth: 1000) {
+                  src
+                  ...GatsbyContentfulFluid_tracedSVG
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
     render={data => (
       <section id="accomodations" className="pt-3 pb-5">
         <Title title="accomodations" />
