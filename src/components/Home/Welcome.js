@@ -9,7 +9,7 @@ export default function Welcome() {
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <p className="lead text-muted mb-5">
-                <strong>Update:</strong> As of 8/8/22 our registration totals are up to 98. Our maximum capacity is 160 in the Jordan Ballroom.
+                <strong style="color: black">Update:</strong> As of 8/8/22 our registration totals are up to 98. Our maximum capacity is 160 in the Jordan Ballroom.
                 Online/paper registration will close on 8/20, at which time we will accommodate in-person registration at Boise
                 State until we reach capacity. Zoom registration will remain open until 8/25 at 12 Noon. We can accommodate an
                 additional 100 people via Zoom.
