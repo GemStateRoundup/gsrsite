@@ -28,6 +28,7 @@ export default function Welcome() {
                 Speaker, Rod B. from Salt Lake City – after our evening meal. We’ll wrap up the day with a comedian and hypnotist –
                 Terry Stokes – all the way from Las Vegas, NV. S
             </p>
+            /*
             <Title title="Dinner Banquet Info" />
             <div>
               <p className="lead text-muted mb-5">
@@ -47,7 +48,7 @@ export default function Welcome() {
               Form by clicking the button below. Please present it at the
               registration desk in the lobby at the event when you arrive.
             </p>
-           
+           */
           </div>
         </div>
       </div>
