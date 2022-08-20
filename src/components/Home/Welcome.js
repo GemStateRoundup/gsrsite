@@ -47,14 +47,7 @@ export default function Welcome() {
               Form by clicking the button below. Please present it at the
               registration desk in the lobby at the event when you arrive.
             </p>
-//             <a
-//               style={{ textDecoration: "none", color: "white" }}
-//               href="https://drive.google.com/file/d/1gnrmyfMvEW5APB2cwWtI-qaeUfkcUVQv/view?usp=sharing"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <button className="btn btn-blue btn-lg"> Download</button>
-            </a>
+           
           </div>
         </div>
       </div>
