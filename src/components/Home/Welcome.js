@@ -28,27 +28,6 @@ export default function Welcome() {
                 Speaker, Rod B. from Salt Lake City – after our evening meal. We’ll wrap up the day with a comedian and hypnotist –
                 Terry Stokes – all the way from Las Vegas, NV. S
             </p>
-            /*
-            <Title title="Dinner Banquet Info" />
-            <div>
-              <p className="lead text-muted mb-5">
-                This year, we will be leveraging the food service facilities
-                which the University uses on campus for all events. For both
-                lunch and dinner, we’ll be serving from a buffet located inside
-                the Ballroom space. Full details of the meals, and associated
-                pricing, for both lunch and dinner are available in the tabs
-                below.
-              </p>
-            </div>
-            <Title title="Registration Info" />
-            <p className="lead text-muted mb-4">
-              Please check event site registration information by clicking the
-              Schedule link provided in the navigation above. Additionally you
-              may still download a copy of The Gem State Roundup Registration
-              Form by clicking the button below. Please present it at the
-              registration desk in the lobby at the event when you arrive.
-            </p>
-           */
           </div>
         </div>
       </div>
