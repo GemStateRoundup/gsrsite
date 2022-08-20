@@ -9,24 +9,13 @@ export default function Welcome() {
         <div className="row">
           <div className="col-12 col-sm-10 mx-auto text-center">
             <p className="lead text-muted mb-5">
-                <strong>Update:</strong> As of 8/8/22 our registration totals are up to 98. Our maximum capacity is 160 in the Jordan Ballroom.
-                Online/paper registration will close on 8/20, at which time we will accommodate in-person registration at Boise
-                State until we reach capacity. Zoom registration will remain open until 8/25 at 12 Noon. We can accommodate an
-                additional 100 people via Zoom.
+            As of August 20th, we've mostly closed down online registration. Zoom registration remains open, as well as contributions towards entertainment and our ongoing scholarship fund. 
+            We are pleased to report that we have 137 registered participants! 
+            In-person registration on the day of the event will be available on a 1st come, 1st served basis. 
+            A total of 39 additional registrations will be accommodated for $30, payable in cash, check or card.
             </p>
              <p className="lead mb-5">
-              We look forward to seeing you there!
-            </p>
-            <p className="lead text-muted mb-5">
-                Hello Everyone, and Welcome Back! We are glad to host you for our 2022 Gem State Round Up, held this year on the
-                beautiful, riverside campus of Boise State, inside the Jordan Ballroom, in downtown Boise, Idaho! This is our 1st
-                Round Up since 2019, and we decided to make this year’s event a full one day, no holds barred – lollapalooza!
-            </p>
-            <p className="lead text-muted mb-5">
-                Our event this year is being co-hosted with Al-Anon participation, panels hosted by AA and Al-Anon Groups from
-                across the state, an Al-Anon Luncheon, Joy P. our speaker is from British Columbia, Canada, and our featured AA
-                Speaker, Rod B. from Salt Lake City – after our evening meal. We’ll wrap up the day with a comedian and hypnotist –
-                Terry Stokes – all the way from Las Vegas, NV. S
+              Thank you for your support. See you August 27th at Boise State! LET'S HAVE SOME FUN!
             </p>
           </div>
         </div>
